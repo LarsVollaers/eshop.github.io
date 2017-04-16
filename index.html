@@ -1,12 +1,9 @@
-<?php
-require_once("config/database.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo''.$sitename.'';?></title>
+	<title>Nintendo eShop</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="./config/css/bootstrap.css">
 	<link rel="stylesheet" href="./config/css/bootstrap.min.css">
@@ -52,17 +49,178 @@ require_once("config/database.php");
 					<div class="col-lg-12">
 						<div class="shop_header"></div>
 						<div class="tab-content">
-							<div id="search" class="tab-pane fade in active">
+							<div id="search" class="tab-pane fade">
 								<h2>Search</h2>
-								<p>...</p>
+								<p>Not possible yet.</p>
 							</div>
-							<div id="releases" class="tab-pane fade">
+							<div id="releases" class="tab-pane fade in active">
+								<div class="games_small">
 								<h2>Recent Releases</h2>
-								<p>...</p>
+									<div class="game_box"><img src="./config/img/games/mrs.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Mr.Shifty</span> 
+										<span class="game_price">€14,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/tjpp3.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">The JackBox Party Pack 3</span> 
+										<span class="game_price">€23,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/ssiv.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Samurai Shodown IV</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/gem.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Graceful Explosion Machine</span> 
+										<span class="game_price">€12,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/amii.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Alpha Mission II</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/lcu.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Lego City : Undercover</span> 
+										<span class="game_price">€59,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/hbh.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Has Been Heroes</span> 
+										<span class="game_price">€24,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/ms.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Metal Slug</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/sp.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Snake Pass</span> 
+										<span class="game_price">€19,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/wog.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">World of Goo</span> 
+										<span class="game_price">€9,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/hrm.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Human Resource Machine</span> 
+										<span class="game_price">€9,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/li.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Little Inferno</span> 
+										<span class="game_price">€9,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/tm.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Turf Masters</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/tkof.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo The King of Fighters '94</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/bmz.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Blaster Master Zero</span> 
+										<span class="game_price">€9,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/n1975.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Nam-1975</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/sc.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Snipperclips</span> 
+										<span class="game_price">€19,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/fr.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Fast RMX</span> 
+										<span class="game_price">€19,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/sktt.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Shovel Knight : Treasure Trove</span> 
+										<span class="game_price">€24,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/BOTW.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Legend of Zelda : Breath Of the Wild</span> 
+										<span class="game_price">€69,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/br.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Bomberman R</span> 
+										<span class="game_price">€49,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/ias.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">I am Setsuna</span> 
+										<span class="game_price">€39,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/12s.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">1, 2, Switch</span> 
+										<span class="game_price">€49,99</span>
+									</div>
+									
+									<div class="game_box"><img src="./config/img/games/ms3.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Metal Slug 3</span> 
+										<span class="game_price">€6,99</span>
+									</div>
+									
+									
+									
+									
+								</div>
+								
 							</div>
 							<div id="soon" class="tab-pane fade">
+								<div class="games_small_soon">
 								<h2>Coming Soon</h2>
-								<p>...</p>
+									<div class="game_box_soon"><img src="./config/img/games/wb.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Wonderboy</span> 
+										<span class="game_price">Date: 18-04-2017</span>
+									</div>
+									
+									<div class="game_box_soon"><img src="./config/img/games/ff.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Fatal Fury</span> 
+										<span class="game_price">Date: 20-04-2017</span>
+									</div>
+									
+									<div class="game_box_soon"><img src="./config/img/games/ot.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Aca NeoGeo Over Top</span> 
+										<span class="game_price">Date: 27-04-217</span>
+									</div>
+									
+									<div class="game_box_soon"><img src="./config/img/games/ppt.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Puyo Puyo Tetris</span> 
+										<span class="game_price">Date: 27-04-2017</span>
+									</div>
+									
+									<div class="game_box_soon"><img src="./config/img/games/mk8d.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Mario Kart 8 Deluxe</span> 
+										<span class="game_price">Date: 28-04-2017</span>
+									</div>
+									
+									<div class="game_box_soon"><img src="./config/img/games/s2.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Splatoon 2</span> 
+										<span class="game_price">Date: 21-07-2017</span>
+									</div>
+									
+									<div class="game_box_soon"><img src="./config/img/games/arms.jpg" class="game_banner" alt="game banner"/> 
+										<span class="game_name">Arms</span> 
+										<span class="game_price">Date: 16-06-2017</span>
+									</div>
+									
+								</div>
 							</div>
 						</div>
 					</div>
@@ -71,7 +229,7 @@ require_once("config/database.php");
 		</div>
 		<div class="footers">
 			<img src="./config/img/mini_switch_icon.png" class="logo_footer" alt="Logo"/>
-			<p class="center"><?php echo''.$footer.'';?></p>
+			<p class="center">Copyright © Nintendo eShop 2017 | Made by Lars Vollaers</p>
 		</div>
 	</body>
 </html>
