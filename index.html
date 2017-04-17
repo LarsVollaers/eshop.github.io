@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nintendo eShop</title>
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="icon.png" type="image/x-icon" />
 	<link rel="stylesheet" href="./config/css/bootstrap.css">
 	<link rel="stylesheet" href="./config/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./config/css/style.css">
@@ -50,8 +49,187 @@
 						<div class="shop_header"></div>
 						<div class="tab-content">
 							<div id="search" class="tab-pane fade">
-								<h2>Search</h2>
-								<p>Not possible yet.</p>
+								<h2>Search</h2><p class="search_source">source: <a href="https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games">found here.</a></p>
+								<div class="search_small">
+									<div class="col-xs-offset-3 col-xs-6 search_box_top">
+
+										<div class="input-group">
+											<span class="input-group-addon search_icon_box"><i class="fa fa-search" aria-hidden="true"></i></span>
+											<input type="text" id="SearchaGame" onkeyup="SearchGame()" class="form-control search_input_box" name="search" placeholder="Search..">
+										</div>
+										<ul id="GameList" class="GameList_hidden">
+										  <li><a href="#">AeternoBlade 2</a></li>
+										  <li><a href="#">Alpha Mission II</a></li>
+										  <li><a href="#">Animal Rivals</a></li>
+										  <li><a href="#">Arms</a></li>
+										  <li><a href="#">Audio Hero</a></li>
+										  <li><a href="#">Away: Journey to the Unexpected</a></li>
+										  <li><a href="#">Battle Chasers: Nightwar</a></li>
+										  <li><a href="#">Battle Chef Brigade</a></li>
+										  <li><a href="#">Battle Princess Madelyn</a></li>
+										  <li><a href="#">Bit Boy! Arcade Deluxe</a></li>
+										  <li><a href="#">Blaster Master Zero</a></li>
+										  <li><a href="#">Blazing Star</a></li>
+										  <li><a href="#">Bloodstained: Ritual of the Night</a></li>
+										  <li><a href="#">The Binding of Isaac: Afterbirth+</a></li>
+										  <li><a href="#">Cave Story+</a></li>
+										  <li><a href="#">Cars 3: Driven to Win</a></li>
+										  <li><a href="#">Celeste</a></li>
+										  <li><a href="#">Constructor</a></li>
+										  <li><a href="#">Cube Life: Island Survival HD</a></li>
+										  <li><a href="#">Dandara</a></li>
+										  <li><a href="#">De Mambo</a></li>
+										  <li><a href="#">Disgaea 5 Complete</a></li>
+										  <li><a href="#">Dragon Ball Xenoverse 2</a></li>
+										  <li><a href="#">Dragon Quest X</a></li>
+										  <li><a href="#">Dragon Quest XI</a></li>
+										  <li><a href="#">Dragon Quest Heroes I & II</a></li>
+										  <li><a href="#">Duck Game</a></li>
+										  <li><a href="#">Dungeon of Zaar</a></li>
+										  <li><a href="#">The Elder Scrolls V: Skyrim</a></li>
+										  <li><a href="#">Enter the Gungeon</a></li>
+										  <li><a href="#">The Escapists 2</a></li>
+										  <li><a href="#">The Fall Part 2: Unbound</a></li>
+										  <li><a href="#">Farming Simulator 18</a></li>
+										  <li><a href="#">Fast RMX</a></li>
+										  <li><a href="#">Fatal Fury: King of Fighters</a></li>
+										  <li><a href="#">Fate/EXTELLA: The Umbral Star</a></li>
+										  <li><a href="#">FIFA 18</a></li>
+										  <li><a href="#">Fire Emblem Warriors</a></li>
+										  <li><a href="#">Flipping Death</a></li>
+										  <li><a href="#">Garou: Mark of the Wolves[</a></li>
+										  <li><a href="#">Galaxy Fight: Universal Warriors</a></li>
+										  <li><a href="#">GoNNER</a></li>
+										  <li><a href="#">Graceful Explosion Machine</a></li>
+										  <li><a href="#">Has-Been Heroes</a></li>
+										  <li><a href="#">Hollow Knight</a></li>
+										  <li><a href="#">Hover: Revolt of Gamers</a></li>
+										  <li><a href="#">Human Resource Machine</a></li>
+										  <li><a href="#">Huntdown</a></li>
+										  <li><a href="#">Hydra Castle Labyrinth</a></li>
+										  <li><a href="#">I Am Setsuna</a></li>
+										  <li><a href="#">Ittle Dew 2</a></li>
+										  <li><a href="#">Jackbox Party Pack 3</a></li>
+										  <li><a href="#">Just Dance 2017</a></li>
+										  <li><a href="#">Kamiko</a></li>
+										  <li><a href="#">Kingdom: Two Crowns</a></li>
+										  <li><a href="#">The King of Fighters '94</a></li>
+										  <li><a href="#">The King of Fighters '98</a></li>
+										  <li><a href="#">The King of Fighters '99</a></li>
+										  <li><a href="#">Last Resort</a></li>
+										  <li><a href="#">The Legend of Zelda: Breath of the Wild</a></li>
+										  <li><a href="#">Lego City Undercover</a></li>
+										  <li><a href="#">Lego Worlds</a></li>
+										  <li><a href="#">Little Inferno</a></li>
+										  <li><a href="#">Mario Kart 8 Deluxe</a></li>
+										  <li><a href="#">Metal Slug</a></li>
+										  <li><a href="#">Metal Slug 3</a></li>
+										  <li><a href="#">Minecraft: Story Mode - The Complete Adventure</a></li>
+										  <li><a href="#">Minecraft: Nintendo Switch Edition</a></li>
+										  <li><a href="#">Minna de Wai Wai! Spelunker</a></li>
+										  <li><a href="#">Monopoly for Nintendo Switch</a></li>
+										  <li><a href="#">Monster Boy and the Cursed Kingdom</a></li>
+										  <li><a href="#">Mr. Shifty</a></li>
+										  <li><a href="#">Mutant Mudds</a></li>
+										  <li><a href="#">NAM-1975[</a></li>
+										  <li><a href="#">Namco Museum</a></li>
+										  <li><a href="#">NBA 2K18</a></li>
+										  <li><a href="#">NBA Playgrounds</a></li>
+										  <li><a href="#">Neo Turf Masters</a></li>
+										  <li><a href="#">NeuroVoider</a></li>
+										  <li><a href="#">New Frontier Days: Founding Pioneers</a></li>
+										  <li><a href="#">The Next Penelope</a></li>
+										  <li><a href="#">Nights of Azure 2: Bride of the New Moon</a></li>
+										  <li><a href="#">Nobunaga's Ambition: Sphere of Influence</a></li>
+										  <li><a href="#">Oceanhorn: Monster of Uncharted Seas</a></li>
+										  <li><a href="#">Ohayou! Beginner's Japanese</a></li>
+										  <li><a href="#">Old Time Hockey</a></li>
+										  <li><a href="#">Othello</a></li>
+										  <li><a href="#">Overcooked: Special Edition</a></li>
+										  <li><a href="#">Over Top</a></li>
+										  <li><a href="#">Pankapu</a></li>
+										  <li><a href="#">Party Golf</a></li>
+										  <li><a href="#">Payday 2</a></li>
+										  <li><a href="#">Perception</a></li>
+										  <li><a href="#">Pixel Princess Blitz</a></li>
+										  <li><a href="#">Pocket Rumble</a></li>
+										  <li><a href="#">Portal Knights</a></li>
+										  <li><a href="#">Project Octopath Traveler</a></li>
+										  <li><a href="#">Project Mekuru</a></li>
+										  <li><a href="#">Puyo Puyo Tetris</a></li>
+										  <li><a href="#">Puzzle Box</a></li>
+										  <li><a href="#">Racing Apex</a></li>
+										  <li><a href="#">Rayman Legends: Definitive Edition</a></li>
+										  <li><a href="#">Re:Legend</a></li>
+										  <li><a href="#">Redout</a></li>
+										  <li><a href="#">RiME</a></li>
+										  <li><a href="#">Rive</a></li>
+										  <li><a href="#">Riverside</a></li>
+										  <li><a href="#">Rogue Trooper Redux</a></li>
+										  <li><a href="#">Romance of the Three Kingdoms XIII</a></li>
+										  <li><a href="#">Runner3</a></li>
+										  <li><a href="#">The Sacred Hero</a></li>
+										  <li><a href="#">Samurai Shodown IV: Amakusa's Revenge</a></li>
+										  <li><a href="#">Seasons of Heaven</a></li>
+										  <li><a href="#">Seiken Densetsu Collection</a></li>
+										  <li><a href="#">Sengoku</a></li>
+										  <li><a href="#">Shakedown Hawaii</a></li>
+										  <li><a href="#">Shinobi Refle: Senran Kagura</a></li>
+										  <li><a href="#">Shock Troopers</a></li>
+										  <li><a href="#">Shock Troopers: 2nd Squad</a></li>
+										  <li><a href="#">Shovel Knight: Treasure Trove</a></li>
+										  <li><a href="#">Shovel Knight: Specter of Torment</a></li>
+										  <li><a href="#">Sine Mora EX</a></li>
+										  <li><a href="#">Skylanders: Imaginators</a></li>
+										  <li><a href="#">Snake Pass</a></li>
+										  <li><a href="#">Snipperclips</a></li>
+										  <li><a href="#">Soldam: Blooming Declaration</a></li>
+										  <li><a href="#">Sonic Forces</a></li>
+										  <li><a href="#">Sonic Mania</a></li>
+										  <li><a href="#">Space Dave!</a></li>
+										  <li><a href="#">Splasher</a></li>
+										  <li><a href="#">Splatoon 2</a></li>
+										  <li><a href="#">Stardew Valley</a></li>
+										  <li><a href="#">State of Mind</a></li>
+										  <li><a href="#">SteamWorld Dig 2</a></li>
+										  <li><a href="#">Steep</a></li>
+										  <li><a href="#">sU and the Quest for meaning</a></li>
+										  <li><a href="#">Sunu Ikkibu: Din Nahu</a></li>
+										  <li><a href="#">Super Bomberman R</a></li>
+										  <li><a href="#">Super Mario Odyssey</a></li>
+										  <li><a href="#">Syberia 3</a></li>
+										  <li><a href="#">Tank It!</a></li>
+										  <li><a href="#">Terraria</a></li>
+										  <li><a href="#">Thumper</a></li>
+										  <li><a href="#">ToeJam & Earl: Back in the Groove</a></li>
+										  <li><a href="#">Touhou Genso Wanderer</a></li>
+										  <li><a href="#">Towerfall: Ascension</a></li>
+										  <li><a href="#">Treasurenauts</a></li>
+										  <li><a href="#">Troll and I</a></li>
+										  <li><a href="#">TumbleSeed</a></li>
+										  <li><a href="#">Ultimate Chicken Horse</a></li>
+										  <li><a href="#">Ultra Street Fighter II: The Final Challengers</a></li>
+										  <li><a href="#">Unbox: Newbie's Adventure</a></li>
+										  <li><a href="#">Unholy Heights</a></li>
+										  <li><a href="#">The Unlikely Legend of Rusty Pup</a></li>
+										  <li><a href="#">VOEZ</a></li>
+										  <li><a href="#">Vroom in the Night Sky</a></li>
+										  <li><a href="#">Waku Waku 7</a></li>
+										  <li><a href="#">WarGroove</a></li>
+										  <li><a href="#">Wonder Boy: The Dragon's Trap</a></li>
+										  <li><a href="#">World Heroes Perfect</a></li>
+										  <li><a href="#">World of Goo</a></li>
+										  <li><a href="#">Xenoblade Chronicles 2</a></li>
+										  <li><a href="#">Yoku's Island Express</a></li>
+										  <li><a href="#">Yooka-Laylee</a></li>
+										  <li><a href="#">Zombie Vikings</a></li>
+										  <li><a href="#">1-2-Switch</a></li>
+										  <li><a href="#">2 Fast 4 Gnomz</a></li>
+										  <li><a href="#" class="header">!</a></li>
+										  <li><a href="#">!</a></li>
+										</ul>
+									</div>
+								</div>
 							</div>
 							<div id="releases" class="tab-pane fade in active">
 								<div class="games_small">
@@ -157,7 +335,7 @@
 									</div>
 									
 									<div class="game_box"><img src="./config/img/games/br.jpg" class="game_banner" alt="game banner"/> 
-										<span class="game_name">Bomberman R</span> 
+										<span class="game_name">Super Bomberman R</span> 
 										<span class="game_price">€49,99</span>
 									</div>
 									
@@ -175,12 +353,7 @@
 										<span class="game_name">Aca NeoGeo Metal Slug 3</span> 
 										<span class="game_price">€6,99</span>
 									</div>
-									
-									
-									
-									
 								</div>
-								
 							</div>
 							<div id="soon" class="tab-pane fade">
 								<div class="games_small_soon">
@@ -229,7 +402,7 @@
 		</div>
 		<div class="footers">
 			<img src="./config/img/mini_switch_icon.png" class="logo_footer" alt="Logo"/>
-			<p class="center">Copyright © Nintendo eShop 2017 | Made by Lars Vollaers</p>
+			<p class="center">Copyright © Nintendo eShop 2017 | Made by <a href="https://www.reddit.com/user/LerzPlez/">Lars Vollaers</a> | <a href="https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games">List of games</a> | <a href="https://github.com/LarsVollaers/eshop.github.io/">Go to my Github</a></p>
 		</div>
 	</body>
 </html>
